@@ -52,6 +52,16 @@ export default function eventProfile() {
             autoComplete="Days for event to run"
           />
         </Grid>
+        <Grid item xs ={12} sm={6}>
+          <TextField
+          required
+          id="notes"
+          name="notes"
+          label="Notes on the event"
+          fullWidth
+          autoComplete="Write your notes here.."
+          />
+        </Grid>
         </Grid>
         </React.Fragment>
     )
